@@ -1,13 +1,15 @@
 {
-	"name": "typescript-package-template",
+	"name": "@ghostebony/plex",
 	"version": "0.0.1",
 	"main": "index.js",
 	"type": "module",
 	"author": "Pedro Américo",
 	"license": "MIT",
-	"repository": "github:ghostebony/typescript-package-template",
-	"description": "typescript package template",
-	"keywords": [],
+	"repository": "github:ghostebony/plex",
+	"keywords": [
+		"plex",
+		"api"
+	],
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
 		"build": "tsc --build",
